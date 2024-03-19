@@ -37,7 +37,7 @@ export default function Component() {
             backgroundColor: "#FFFFFF",
             padding: "10px",
             border: "1px solid #D1D5DB",
-            borderRadius: "5px",
+            borderRadius: "15px",
             color: "#1F2937",
             fontFamily: "Inter",
           }}
@@ -55,7 +55,11 @@ export default function Component() {
             Total Members
           </div>
           <div style={{ fontSize: "1.25rem", fontWeight: "bold" }}>
-            152 members
+            152 <span style={{
+          fontFamily: "Inter",
+          fontSize: "15px",
+          fontWeight: "500",
+            }}>members</span>
           </div>
           <div style={{ fontSize: "0.875rem", color: "#888" }}>
             5% vs. last week
